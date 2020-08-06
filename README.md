@@ -1,3 +1,7 @@
+# Content
+
+Download content from here: https://www.dropbox.com/s/q5j26cqkqv4qc1v/content.zip?dl=0 and place folder into this project.
+
 # Setup
 
 Clone this repo and rename it like so: `git@github.com:public-office/starter.git yourname`. `cd` into the directory.
