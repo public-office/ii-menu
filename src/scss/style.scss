@@ -6,8 +6,36 @@
 }
 html {
   font-size: 10px;
+  --red: red;
+  --blue: blue;
 }
 body {
   font-size: 1.6rem;
   line-height: 1.2;
+  background: #ccc;
+  .visible {
+    opacity: 1;
+  }
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  max-width: 80%;
+  height: 100vh;
+  overflow-y: auto;
+  background: white;
+  div {
+    flex: 1;
+    &.about {
+      margin-top: 1em;
+    }
+    &.contributors {
+      border-left: 1px solid;
+      padding-left: 1em;
+    }
+  }
+  ul {
+    list-style: none;
+  }
 }

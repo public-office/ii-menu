@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+html {
+  font-size: 10px;
+  --red: red;
+  --blue: blue; }
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  background: #ccc; }
+  body .visible {
+    opacity: 1; }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  max-width: 80%;
+  height: 100vh;
+  overflow-y: auto;
+  background: white; }
+  nav div {
+    flex: 1; }
+    nav div.about {
+      margin-top: 1em; }
+    nav div.contributors {
+      border-left: 1px solid;
+      padding-left: 1em; }
+  nav ul {
+    list-style: none; }
+
+/*# sourceMappingURL=style.css.map */

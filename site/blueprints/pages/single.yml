@@ -1,0 +1,12 @@
+title: Single
+preset: page
+fields:
+  contributor:
+    label: Contributor
+    type: select
+    options: query
+    query: site.children.template("contributors").children
+  text:
+    label: Text
+    type: textarea
+    size: large
